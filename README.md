@@ -11,15 +11,15 @@ From tests on the theoretical part to fully working structures.
 
 Theoretical two-threaded locks:
 
-- [Flags](http://github.com/oleksandrcherevkov/concurrency/locks/flags)
-- [Peterson](http://github.com/oleksandrcherevkov/concurrency/locks/peterson)
+- [Flags](http://github.com/oleksandrcherevkov/concurrency/blob/locks/flags/main.go)
+- [Peterson](http://github.com/oleksandrcherevkov/concurrency/blob/locks/peterson/main.go)
 - ~~Bakery~~
 
 Multithreaded Spin-locks:
 
-- [Test-And-Set](http://github.com/oleksandrcherevkov/concurrency/locks/tas)
-- [Test-Test-And-Set](http://github.com/oleksandrcherevkov/concurrency/locks/ttas)
-- [Exponential Backoff](http://github.com/oleksandrcherevkov/concurrency/locks/exponential-backoff)
-- [Anderson Queue](http://github.com/oleksandrcherevkov/concurrency/locks/anderson-queue)
-- [Craig, Landin and Hagersten](http://github.com/oleksandrcherevkov/concurrency/locks/clh)
-- [Mellor-Crummey & Scott](http://github.com/oleksandrcherevkov/concurrency/locks/mcs)
+- [Test-And-Set](http://github.com/oleksandrcherevkov/concurrency/blob/locks/tas/main.go)
+- [Test-Test-And-Set](http://github.com/oleksandrcherevkov/concurrency/blob/locks/ttas/main.go)
+- [Exponential Backoff](http://github.com/oleksandrcherevkov/concurrency/blob/locks/exponential-backoff/main.go)
+- [Anderson Queue](http://github.com/oleksandrcherevkov/concurrency/blob/locks/anderson-queue/main.go)
+- [Craig, Landin and Hagersten](http://github.com/oleksandrcherevkov/concurrency/blob/locks/clh/main.go)
+- [Mellor-Crummey & Scott](http://github.com/oleksandrcherevkov/concurrency/blob/locks/mcs/main.go)
